@@ -4,6 +4,7 @@ import {
   FaAngular,
   FaBootstrap,
   FaCss3Alt,
+  FaFigma,
   FaHtml5,
   FaNodeJs,
   FaPhp,
@@ -17,20 +18,32 @@ import {
   RiJavascriptFill,
   RiReactjsLine,
   RiSvelteFill,
+  RiTailwindCssFill,
 } from "react-icons/ri";
 import {
+  SiBabel,
   SiDelphi,
   SiExpress,
+  SiGithub,
+  SiJest,
   SiMongodb,
   SiReactrouter,
   SiRedux,
   SiRubocop,
   SiSqlite,
+  SiThealgorithms,
   SiVite,
 } from "react-icons/si";
 import { TbBrandMysql, TbBrandNextjs, TbBrandThreejs } from "react-icons/tb";
 
 const technologies = {
+  algorithm: { component: SiThealgorithms, title: "Algorithm", className: "" },
+  figma: { component: FaFigma, title: "Figma", className: "" },
+  tailwind: {
+    component: RiTailwindCssFill,
+    title: "Tailwind CSS",
+    className: "text-blue-500",
+  },
   delphi: { component: SiDelphi, title: "Delphi", className: "text-red-600" },
   sass: { component: FaSass, title: "Sass", className: "text-red-600" },
   bootstrap: {
@@ -109,6 +122,29 @@ const technologies = {
     component: BiLogoPostgresql,
     title: "PostgreSQL",
     className: "text-sky-700",
+  },
+  github: {
+    component: SiGithub,
+    title: "Github",
+    className: "text-neutral-100",
+  },
+  babel: {
+    component: SiBabel,
+    title: "Babel",
+    className: "",
+  },
+  jest: {
+    component: SiJest,
+    title: "Jest",
+    className: "text-red-500",
+  },
+  recharts: {
+    title: "Recharts",
+    className: "",
+  },
+  "rtk-query": {
+    title: "RTK Query",
+    className: "",
   },
 };
 
