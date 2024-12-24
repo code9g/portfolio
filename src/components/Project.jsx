@@ -5,7 +5,7 @@ import Tags from "./Tags";
 const Project = ({ images, title, description, skills }) => {
   const firstPicture =
     images instanceof Array && images.length > 0 ? images[0] : null;
-  console.log(import.meta.env.BASE_URL);
+
   return (
     <article className="flex flex-wrap gap-8 lg:justify-center">
       <div className="w-full lg:w-1/4">
