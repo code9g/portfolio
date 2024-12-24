@@ -1,0 +1,389 @@
+{
+  "fullName": "Pierre Henry",
+  "firstName": "Pierre",
+  "lastName": "Henry",
+  "birthday": "1975-11-08",
+  "role": "Développeur Full Stack",
+  "contacts": [
+    {
+      "type": "email",
+      "url": "mailto:pierre.henry@code99.fr",
+      "label": "pierre.henry@code99.fr"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/pierre-andre-henry",
+      "label": "linkedin.com/in/pierre-andre-henry"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/code9g",
+      "label": "github.com/code9g"
+    }
+  ],
+  "hero": "Je suis un développeur Full Stack passionné et doué pour créer des applications Web robustes et évolutives. Avec pas mal d’année d'expérience dans le développement, j'ai perfectionné mes compétences dans les technologies front-end comme React, ainsi que dans les technologies back-end comme PHP, MySQL, Node.js, Express et MongoDB. Mon objectif est de mettre à profit mon expertise pour créer des solutions innovantes qui stimulent la croissance de l'entreprise et offrent des expériences utilisateur exceptionnelles.",
+  "about": "Je suis un développeur Full Stack dévoué et polyvalent, passionné par la création d'applications Web efficaces et conviviales. Avec pas mal d’année d'expérience professionnelle, j'ai travaillé avec diverses technologies, notamment React, Node.js, MySQL, MongoDB, Delphi et Python. Mon parcours dans le développement Web a commencé avec une profonde curiosité pour le fonctionnement des choses, et il a évolué vers une carrière où je m'efforce continuellement d'apprendre et de m'adapter aux nouveaux défis. Je m'épanouis dans des environnements collaboratifs et j'aime résoudre des problèmes complexes pour proposer des solutions de haute qualité. En dehors du codage, j'aime rester actif, explorer de nouvelles technologies.",
+  "skills": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "vitejs",
+    "react-router",
+    "redux",
+    "mongodb",
+    "express",
+    "delphi",
+    "python",
+    "mysql",
+    "php"
+  ],
+  "experiences": [
+    {
+      "year": "Janvier/Février 2023",
+      "role": "Développeur Full Stack (Stagiaire)",
+      "company": "Association Echecs et Mat",
+      "description": [
+        "Refonte du site de l'association afin de le rendre moderne, dynamique et responsive.",
+        "Analyse des besoins du client, création du cahier des charges, mise en place de la structure de la base de donnée, utlisation d'API et de mise en cache des données, intégration avec DataTable (jquery)."
+      ],
+      "url": "https://echecsforbach.com",
+      "skills": [
+        "html",
+        "css",
+        "javascript",
+        "bootstrap",
+        "php",
+        "jquery",
+        "mysql"
+      ]
+    },
+    {
+      "year": "2004 - 2005",
+      "role": "Développeur d'application",
+      "company": "Mathéo-Software",
+      "description": [
+        "Création de la société en tant que co-actionnaire.",
+        "Développement d'application dédiées à la veille technologie et d'analyse de donnée bibliométrique (datamining) en Delphi et Assembleur.",
+        "Mise en place d'algorithme spécifique aux applications et optimisation, réalisé en Assembleur.",
+        "En télétravail."
+      ],
+      "url": "https://www.matheo-software.com/fr/",
+      "skills": [
+        "delphi",
+        "asm"
+      ]
+    },
+    {
+      "year": "1998 - 2004",
+      "role": "Responsable Informatique et Développement",
+      "company": "Société E.T.A.",
+      "description": [
+        "Développement et maintenance d'application dédié aux besoins de l'entreprise, notament un logiciel de chiffrage couplé avec un logiciel de gestion de stock en temps réel, réalisé en Delphi 4 C/S et Interbase.",
+        "Dimensionnement et mise en service du serveur de l'entreprise monté en rack dans une armoire dédié, configuration de Windows NT et administration du réseau.",
+        "Formation du personnel sur l'utilisation des applications propres à l'entreprise et de la suite Microsoft Office."
+      ],
+      "skills": [
+        "delphi",
+        "interbase",
+        "server",
+        "network",
+        "admin",
+        "windownt",
+        "office"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "year": "2024",
+      "role": "Développeur concepteur logiciel",
+      "company": "OpenClassRooms",
+      "description": [
+        "Equivalent BAC+5/6, RNCP de niveau 6 (NFS 326t).",
+        "Obtenu via la formation de Développeur d'application - JavaScript / React chez OpenClassRooms."
+      ]
+    },
+    {
+      "year": "2023",
+      "role": "Développeur Web et Web mobile",
+      "company": "CCI Moselle",
+      "description": [
+        "Equivalent BAC+2, RNCP de niveau 5 (NFS 326t)."
+      ]
+    },
+    {
+      "year": "1995",
+      "role": "BAC S.T.I. G.E.T.",
+      "description": [
+        "Baccalauréat Sciences et Technologies Industrielles en Génie Electrotechnique."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "echecsforbach.com",
+      "images": [
+        "echecsforbach.png"
+      ],
+      "description": [
+        "Un site totalement fonctionnel permettant de consulter les informations, le calendrier et la liste des membres de l'assocation.",
+        "Une authentification est également mise en place pour permettre au responsable éditorial d'écrire, modifier ou supprimer des articles.",
+        "On peut également consulter des puzzles (position d'échecs à résoudre)."
+      ],
+      "url": "https://echecsforbach.com/",
+      "skills": [
+        "html",
+        "css",
+        "javascript",
+        "bootstrap",
+        "php",
+        "jquery",
+        "mysql"
+      ]
+    },
+    {
+      "title": "HRNet",
+      "images": [
+        "hrnet.png"
+      ],
+      "description": [
+        "Projet 14 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Conversion d'une application html/jquery en React, ainsi que la création et le déploiement sur npmjs d'un composant (une modale) et son utilisation au sein du projet."
+      ],
+      "url": "https://code9g.github.io/HRnet/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/HRnet"
+      },
+      "skills": [
+        "react",
+        "redux",
+        "javascript",
+        "sass",
+        "html",
+        "react-router",
+        "css",
+        "react-toastify",
+        "swagger",
+        "api"
+      ]
+    },
+    {
+      "title": "ArgentBank",
+      "images": [
+        "argentbank.png"
+      ],
+      "description": [
+        "Projet 13 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Création d'une application depuis une maquette existante (html/css) en React.",
+        "Communication avec une API réalisé en Node.js + Express + MangoDB.",
+        "Gestion de l'authentification via redux et rtk-query.",
+        "Utilisation et modification de document Swagger (ajout de fonctionnalité)."
+      ],
+      "url": "https://code9g.github.io/ArgentBank/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/ArgentBank"
+      },
+      "skills": [
+        "react",
+        "vitejs",
+        "html",
+        "redux",
+        "react-router",
+        "tailwind",
+        "zod",
+        "react-hook-form",
+        "react-persist",
+        "faker",
+        "rtk-query"
+      ]
+    },
+    {
+      "title": "SportSee",
+      "images": [
+        "sportsee.png"
+      ],
+      "description": [
+        "Projet 12 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Réalisation d'une nouvelle version de la page profil de l'utilisateur, un tableau de bord d'analytics en React, en utlisant Recharts.",
+        "Communication avec une API (réalisé en Node.js + Express + MangoDB), gestion des erreurs et formatage des données).",
+        "Utlisation du \"mocking\" pendant la phase de développement.",
+        "Ecriture et génération de la documentation du projet (JSDoc)."
+      ],
+      "url": "https://code9g.github.io/SportSee/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/SportSee"
+      },
+      "skills": [
+        "figma",
+        "react",
+        "vitejs",
+        "reat-router",
+        "recharts",
+        "html",
+        "css",
+        "javascript",
+        "sass"
+      ]
+    },
+    {
+      "title": "kasa",
+      "images": [
+        "kasa.png"
+      ],
+      "description": [
+        "Projet 11 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Réalisation d'une plateforme web de location d'appartements entre particuliers en React + React Router.",
+        "Utilisation des fonctionnalités de React Router, ainsi que la création de composant React spécifique (carrousel, collapse, etc..) avec des animations."
+      ],
+      "url": "https://code9g.github.io/kasa",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/kasa"
+      },
+      "skills": [
+        "figma",
+        "react",
+        "react-router",
+        "html",
+        "css",
+        "javascript",
+        "sass"
+      ]
+    },
+    {
+      "title": "billed",
+      "images": [
+        "billed.png"
+      ],
+      "description": [
+        "Projet 9 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Débuggage de l'application de gestion de ticket, mise en place de test unitaire, end to end, etc...",
+        "Génération de la documentation pour le test end to end."
+      ],
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/billed"
+      },
+      "skills": [
+        "html",
+        "css",
+        "javascript",
+        "babel",
+        "jest"
+      ]
+    },
+    {
+      "title": "Les petit Plats",
+      "images": [
+        "les-petit-plats.png"
+      ],
+      "description": [
+        "Projet 7 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Développement et optimisation d'un algorithme de recherche et de filtrage des recettes, utilisation du scss et de l'architecture 7:1.",
+        "Création d'un composant Dropdown entièrement en HTML/SCSS/JavaScript permettant d'afficher, rechercher et sélectionner dans une liste de composant, impactant le filtre de recherche.",
+        "Comparaison des différentes méthodes de l'agorithme et génération d'un document récapitulatif."
+      ],
+      "url": "https://code9g.github.io/les-petit-plats/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/les-petit-plats"
+      },
+      "skills": [
+        "figma",
+        "html",
+        "css",
+        "javascript",
+        "sass",
+        "algorithm"
+      ]
+    },
+    {
+      "title": "Fisheye",
+      "images": [
+        "fisheye.png"
+      ],
+      "description": [
+        "Projet 6 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Création d'un site accessible pour une plateforme de Photographe, avec validation du W3C et du WACG."
+      ],
+      "url": "https://code9g.github.io/Fisheye/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/Fisheye"
+      },
+      "skills": [
+        "figma",
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "title": "GameOn",
+      "images": [
+        "gameon.png"
+      ],
+      "description": [
+        "Projet 4 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Forkage du projet, résolution des issues et réalisation des pulls request."
+      ],
+      "url": "https://code9g.github.io/GameOn/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/GameOn"
+      },
+      "skills": [
+        "figma",
+        "html",
+        "css",
+        "javascript",
+        "github",
+        "git"
+      ]
+    },
+    {
+      "title": "ohmyfood",
+      "images": [
+        "ohmyfood.png"
+      ],
+      "description": [
+        "Projet 3 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Réalisation de page web responsive (page d'accueil et quatre pages de restaurant) d'une application de restauration (par le bias de restaurant et des menus) et les rendre dynamique avec des animations en CSS."
+      ],
+      "url": "https://code9g.github.io/ohmyfood/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/ohmyfood"
+      },
+      "skills": [
+        "figma",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "title": "booki",
+      "images": [
+        "booki.png"
+      ],
+      "description": [
+        "Projet 2 de la formation \"Développeur d'application - JavaScript / React\" de OpenClassRooms",
+        "Réalisation d'une page d'accueil responsive depuis une maquette firma, permettant aux usagers de trouver des hébergements et des activités."
+      ],
+      "url": "https://code9g.github.io/booki/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/booki"
+      },
+      "skills": [
+        "figma",
+        "html",
+        "css"
+      ]
+    }
+  ]
+}
