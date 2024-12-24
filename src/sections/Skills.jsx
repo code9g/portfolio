@@ -2,7 +2,7 @@ import clsx from "clsx";
 import PropTypes from "prop-types";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
-import resume from "../constants/resume.json";
+import resume from "../data/resume.json";
 import findTechnology from "../lib/utils/findTechnology";
 
 const Skill = ({ name }) => {

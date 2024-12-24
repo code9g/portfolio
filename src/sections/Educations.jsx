@@ -1,7 +1,7 @@
 import Education from "../components/Education";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
-import resume from "../constants/resume.json";
+import resume from "../data/resume.json";
 
 const Educations = () => {
   return (

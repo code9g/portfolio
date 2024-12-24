@@ -1,6 +1,6 @@
 import profile from "../assets/profile.jpg";
 import Section from "../components/Section";
-import resume from "../constants/resume.json";
+import resume from "../data/resume.json";
 
 const Hero = () => {
   return (

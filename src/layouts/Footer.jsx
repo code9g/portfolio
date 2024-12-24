@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import Container from "../components/Container";
-import resume from "../constants/resume.json";
+import resume from "../data/resume.json";
 
 const icons = {
   github: { component: FaGithub, title: "Github" },

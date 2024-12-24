@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
-import resume from "../constants/resume.json";
+import resume from "../data/resume.json";
 
 const Projects = () => {
   return (
