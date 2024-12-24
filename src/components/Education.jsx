@@ -5,7 +5,9 @@ const Education = ({ year, company = null, role, description }) => {
   return (
     <article className="flex flex-wrap gap-8 lg:justify-center">
       <div className="w-full lg:w-1/6">
-        <p className="text-right text-sm text-neutral-400">{year}</p>
+        <p className="text-center text-sm text-neutral-400 lg:text-right">
+          {year}
+        </p>
       </div>
       <div className="w-full max-w-xl lg:w-5/6">
         <h3 className="mb-2 font-semibold">

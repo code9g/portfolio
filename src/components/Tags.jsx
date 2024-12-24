@@ -2,14 +2,18 @@ import PropTypes from "prop-types";
 import findTechnology from "../lib/utils/findTechnology";
 
 const Tags = ({ items }) => {
-  return items.map((item, index) => (
-    <span
-      key={index}
-      className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
-    >
-      {findTechnology(item)?.title ?? item}
-    </span>
-  ));
+  return (
+    <div className="flex flex-wrap gap-x-2 gap-y-3">
+      {items.map((item, index) => (
+        <span
+          key={index}
+          className="mr-2 text-nowrap rounded bg-neutral-300 px-3 py-1.5 text-sm font-medium text-neutral-950"
+        >
+          {findTechnology(item)?.title ?? item}
+        </span>
+      ))}
+    </div>
+  );
 };
 
 Tags.propTypes = {

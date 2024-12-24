@@ -5,7 +5,7 @@ const Section = ({ className, children, ...props }) => {
   return (
     <section
       className={clsx(
-        "border-b border-neutral-900 px-4 py-8 lg:px-0",
+        "border-b border-neutral-700 px-4 py-8 lg:px-0",
         className
       )}
       {...props}
