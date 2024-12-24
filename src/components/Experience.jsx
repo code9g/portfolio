@@ -4,15 +4,13 @@ import Tags from "./Tags";
 
 const Experience = ({ year, company, role, description, skills }) => {
   return (
-    <article className="flex flex-col flex-wrap items-center gap-8 lg:flex-row lg:justify-center">
+    <article className="flex flex-col flex-wrap items-center gap-8 lg:flex-row lg:items-start lg:justify-center">
       <div className="w-full lg:w-1/6">
-        <p className="text-center text-sm text-neutral-400 lg:text-right">
-          {year}
-        </p>
+        <p className="text-center text-neutral-400 lg:text-right">{year}</p>
       </div>
       <div className="w-full max-w-xl lg:w-5/6">
         <h3 className="mb-2 font-semibold">
-          {role} - <span className="text-sm text-purple-100">{company}</span>
+          {role} - <span className="text-purple-100">{company}</span>
         </h3>
         <Description content={description} />
         <Tags items={skills} />
