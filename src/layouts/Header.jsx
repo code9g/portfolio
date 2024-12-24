@@ -16,7 +16,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-neutral-950">
+    <header className="sticky top-0 z-10 bg-neutral-950">
       <Container className="flex items-center justify-between text-xl">
         <a className="pl-4 lg:pl-0" href="#home">
           &lt;code99&nbsp;/&gt;
