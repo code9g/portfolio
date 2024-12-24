@@ -12,8 +12,8 @@ const Education = ({ year, company = null, role, description }) => {
           {role}
           {company && (
             <>
-              {" "}
-              - <span className="text-sm text-purple-100">{company}</span>
+              <br />
+              <span className="text-purple-100">{company}</span>
             </>
           )}
         </h3>

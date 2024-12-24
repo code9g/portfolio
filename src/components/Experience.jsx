@@ -10,7 +10,9 @@ const Experience = ({ year, company, role, description, skills }) => {
       </div>
       <div className="w-full max-w-xl lg:w-5/6">
         <h3 className="mb-2 font-semibold">
-          {role} - <span className="text-purple-100">{company}</span>
+          {role}
+          <br />
+          <span className="text-purple-100">{company}</span>
         </h3>
         <Description content={description} />
         <Tags items={skills} />
