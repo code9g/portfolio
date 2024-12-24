@@ -32,9 +32,9 @@ Skill.propTypes = {
 
 const Skills = () => {
   return (
-    <Section id="skills">
+    <Section id="skills" className="flex flex-col items-center">
       <TitleSection>Compétences</TitleSection>
-      <div className="flex flex-wrap items-center justify-center gap-10">
+      <div className="flex flex-wrap items-center justify-center gap-10 lg:max-w-[50vw]">
         {resume.skills.map((item) => {
           return <Skill key={item} name={item} />;
         })}
