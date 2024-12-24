@@ -12,7 +12,7 @@ const Project = ({ images, title, description, skills }) => {
         {firstPicture ? (
           <img
             className="aspect-square w-full rounded object-contain object-top"
-            src={`/img/projects/${firstPicture}`}
+            src={`portfolio/img/projects/${firstPicture}`}
             alt={title}
           />
         ) : (

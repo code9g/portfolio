@@ -3,6 +3,7 @@ import Container from "../components/Container";
 const links = [
   { url: "#about", title: "Qui suis-je ?" },
   { url: "#skills", title: "Compétences" },
+  { url: "#education", title: "Formations" },
   { url: "#experiences", title: "Expériences" },
   { url: "#projects", title: "Projets" },
   { url: "#contact", title: "Contact" },

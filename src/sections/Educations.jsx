@@ -5,7 +5,7 @@ import resume from "../constants/resume.json";
 
 const Educations = () => {
   return (
-    <Section id="schools">
+    <Section id="education">
       <TitleSection>Formations</TitleSection>
       <div className="flex flex-col gap-8 px-4 lg:px-0">
         {resume.education?.map((item, index) => (
