@@ -8,18 +8,18 @@ const Project = ({ images, title, description, url = null, skills }) => {
 
   return (
     <article className="flex flex-col flex-wrap items-center lg:flex-row lg:items-start lg:justify-center">
-      <div className="w-full items-start justify-start pr-4 pt-4 lg:w-1/4">
+      <div className="w-full items-start justify-start p-4 lg:w-1/4">
         {firstPicture ? (
           <img
             className="aspect-video w-full rounded object-cover object-top"
-            src={`${import.meta.env.BASE_URL}/img/projects/${firstPicture}`}
+            src={`./img/projects/${firstPicture}`}
             alt={title}
           />
         ) : (
           <>&nbsp;</>
         )}
       </div>
-      <div className="w-full max-w-xl pl-4 pt-4 lg:w-3/4">
+      <div className="w-full max-w-xl p-4 lg:w-3/4">
         <h3 className="mb-2 font-semibold">
           {url ? (
             <a className="hover:underline" href={url} target="_blanck">
