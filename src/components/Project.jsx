@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import Description from "./Description";
 import Tags from "./Tags";
@@ -8,7 +9,12 @@ const Project = ({ images, title, description, url = null, skills }) => {
 
   return (
     <article className="flex flex-col flex-wrap items-center lg:flex-row lg:items-start lg:justify-center">
-      <div className="w-full items-start justify-start p-4 lg:w-1/4">
+      <motion.div
+        className="w-full items-start justify-start p-4 lg:w-1/4"
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         {firstPicture ? (
           <img
             className="aspect-video w-full rounded object-cover object-top"
@@ -18,8 +24,13 @@ const Project = ({ images, title, description, url = null, skills }) => {
         ) : (
           <>&nbsp;</>
         )}
-      </div>
-      <div className="w-full max-w-xl p-4 lg:w-3/4">
+      </motion.div>
+      <motion.div
+        className="w-full max-w-xl p-4 lg:w-3/4"
+        initial={{ x: +100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <h3 className="mb-2 font-semibold">
           {url ? (
             <a className="hover:underline" href={url} target="_blanck">
@@ -31,7 +42,7 @@ const Project = ({ images, title, description, url = null, skills }) => {
         </h3>
         <Description content={description} />
         <Tags items={skills} />
-      </div>
+      </motion.div>
     </article>
   );
 };

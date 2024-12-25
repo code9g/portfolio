@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import Description from "./Description";
 import Tags from "./Tags";
@@ -5,10 +6,20 @@ import Tags from "./Tags";
 const Experience = ({ year, company, role, description, skills }) => {
   return (
     <article className="flex flex-col flex-wrap items-center gap-8 lg:flex-row lg:items-start lg:justify-center">
-      <div className="w-full lg:w-1/6">
+      <motion.div
+        className="w-full lg:w-1/6"
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <p className="text-center text-neutral-400 lg:text-right">{year}</p>
-      </div>
-      <div className="w-full max-w-xl lg:w-5/6">
+      </motion.div>
+      <motion.div
+        className="w-full max-w-xl lg:w-5/6"
+        initial={{ x: +100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <h3 className="mb-2 font-semibold">
           {role}
           <br />
@@ -16,7 +27,7 @@ const Experience = ({ year, company, role, description, skills }) => {
         </h3>
         <Description content={description} />
         <Tags items={skills} />
-      </div>
+      </motion.div>
     </article>
   );
 };
