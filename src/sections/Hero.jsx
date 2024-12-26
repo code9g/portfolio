@@ -28,7 +28,7 @@ const Hero = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <img src={profile} alt={resume.fullName} />
+        <img src={"." + profile} alt={resume.fullName} />
       </motion.div>
     </Section>
   );
