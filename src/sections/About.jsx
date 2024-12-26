@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import about from "../assets/about.jpg";
+import Img from "../components/Img";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
@@ -17,7 +18,7 @@ const About = () => {
           transition={{ duration: 1 }}
           className="flex w-full items-center justify-center lg:w-1/2 lg:p-8"
         >
-          <img className="rounded-2xl" src={"." + about} alt="about" />
+          <Img className="rounded-2xl" src={about} alt="about" />
         </motion.div>
         <motion.div
           initial={{ x: +100, opacity: 0 }}

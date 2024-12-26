@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg";
+import Img from "../components/Img";
 import Section from "../components/Section";
 import resume from "../data/resume.json";
 
@@ -28,7 +29,7 @@ const Hero = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <img src={"." + profile} alt={resume.fullName} />
+        <Img src={"." + profile} alt={resume.fullName} />
       </motion.div>
     </Section>
   );
