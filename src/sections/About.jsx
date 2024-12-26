@@ -15,11 +15,9 @@ const About = () => {
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="w-full lg:w-1/2 lg:p-8"
+          className="flex w-full items-center justify-center lg:w-1/2 lg:p-8"
         >
-          <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={about} alt="about" />
-          </div>
+          <img className="rounded-2xl" src={about} alt="about" />
         </motion.div>
         <motion.div
           initial={{ x: +100, opacity: 0 }}
