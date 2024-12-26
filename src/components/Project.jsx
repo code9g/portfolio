@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import Description from "./Description";
+import Img from "./Img";
 import Tags from "./Tags";
 
 const Project = ({ images, title, description, url = null, skills }) => {
@@ -16,9 +17,9 @@ const Project = ({ images, title, description, url = null, skills }) => {
         transition={{ duration: 1 }}
       >
         {firstPicture ? (
-          <img
+          <Img
             className="aspect-video w-full rounded object-cover object-top"
-            src={`./img/projects/${firstPicture}`}
+            src={`/img/projects/${firstPicture}`}
             alt={title}
           />
         ) : (
