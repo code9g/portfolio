@@ -34,7 +34,7 @@ const Project = ({ images, title, description, url = null, skills }) => {
       >
         <h3 className="mb-2 font-semibold">
           {url ? (
-            <a className="hover:underline" href={url} target="_blanck">
+            <a className="hover:underline" href={url} target="_blank">
               {title}
             </a>
           ) : (
