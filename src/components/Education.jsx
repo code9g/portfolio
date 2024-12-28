@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import Description from "./Description";
 
-const Education = ({ year, company = null, role, description }) => {
+const Education = ({ endDate, institution, area, summary }) => {
   return (
     <article className="flex flex-wrap gap-8 lg:justify-center">
       <motion.div
@@ -11,7 +11,9 @@ const Education = ({ year, company = null, role, description }) => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-center text-neutral-400 lg:text-right">{year}</p>
+        <p className="text-center text-neutral-400 lg:text-right">
+          {new Date(endDate).getFullYear()}
+        </p>
       </motion.div>
       <motion.div
         className="w-full max-w-xl lg:w-5/6"
@@ -20,25 +22,28 @@ const Education = ({ year, company = null, role, description }) => {
         transition={{ duration: 1 }}
       >
         <h3 className="mb-2 font-semibold">
-          {role}
-          {company && (
+          {area}
+          {institution && (
             <>
               <br />
-              <span className="text-purple-100">{company}</span>
+              <span className="text-purple-100">{institution}</span>
             </>
           )}
         </h3>
-        <Description className="text-neutral-400" content={description} />
+        <Description className="text-neutral-400" content={summary} />
       </motion.div>
     </article>
   );
 };
 
 Education.propTypes = {
-  year: PropTypes.string.isRequired,
-  company: PropTypes.string,
-  role: PropTypes.string.isRequired,
-  description: PropTypes.any,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+  institution: PropTypes.string,
+  area: PropTypes.string,
+  score: PropTypes.string,
+  url: PropTypes.string,
+  summary: PropTypes.any,
 };
 
 export default Education;

@@ -51,7 +51,6 @@
       "position": "Développeur Full Stack (Stagiaire)",
       "startDate": "2023-01-01",
       "endDate": "2023-01-31",
-      "year": "Janvier/Février 2023",
       "location": "Forbach, Moselle, France",
       "summary": [
         "Refonte du site de l'association afin de le rendre moderne, dynamique et responsive.",
@@ -69,7 +68,6 @@
       ]
     },
     {
-      "year": "2004 - 2008",
       "name": "Mathéo-Software",
       "position": "Développeur d'application (Delphi)",
       "startDate": "2004-03-31",
@@ -89,7 +87,6 @@
       ]
     },
     {
-      "year": "1998 - 2004",
       "startDate": "1998-09-30",
       "endDate": "2004-03-31",
       "position": "Responsable Informatique et Développement",
@@ -113,26 +110,36 @@
   ],
   "education": [
     {
-      "year": "2024",
-      "role": "Développeur concepteur logiciel",
-      "company": "OpenClassRooms",
-      "description": [
+      "startDate": "2023-09-30",
+      "endDate": "2024-11-30",
+      "area": "Développeur concepteur logiciel",
+      "studyType": "Titre professionnel (TP) de niveau 6",
+      "institution": "OpenClassRooms",
+      "url": "https://openclassrooms.com/fr/",
+      "summary": [
         "Equivalent BAC+4/5, RNCP de niveau 6 (NFS 326t).",
         "Obtenu via la formation de Développeur d'application - JavaScript / React chez OpenClassRooms."
       ]
     },
     {
-      "year": "2023",
-      "role": "Développeur Web et Web mobile",
-      "company": "CCI Moselle",
-      "description": [
+      "startDate": "2022-05-31",
+      "endDate": "2023-04-30",
+      "area": "Développeur Web et Web mobile",
+      "studyType": "Titre professionnel (TP) de niveau 5",
+      "institution": "CCI Moselle",
+      "score": "Obtenu avec les félicitations du jury",
+      "summary": [
         "Equivalent BAC+2, RNCP de niveau 5 (NFS 326t)."
       ]
     },
     {
-      "year": "1995",
-      "role": "BAC S.T.I. G.E.T.",
-      "description": [
+      "startDate": "1993-12-31",
+      "endDate": "1997-12-31",
+      "area": "Technologie / technicien du génie électrique, de l'électronique et des communications",
+      "studyType": "BAC STI GET",
+      "institution": "Lycée Technique \"Charles Jully\"",
+      "score": "Mention Bien",
+      "summary": [
         "Baccalauréat Sciences et Technologies Industrielles en Génie Electrotechnique."
       ]
     }

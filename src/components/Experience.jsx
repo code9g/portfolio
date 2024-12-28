@@ -3,7 +3,30 @@ import PropTypes from "prop-types";
 import Description from "./Description";
 import Tags from "./Tags";
 
-const Experience = ({ year, name, position, summary, highlights }) => {
+const Experience = ({
+  startDate,
+  endDate,
+  name,
+  position,
+  summary,
+  highlights,
+}) => {
+  const sd = new Date(startDate);
+  const ed = new Date(endDate);
+  let date = null;
+
+  const years = ed.getFullYear() - sd.getFullYear();
+  const months = ed.getMonth() - sd.getMonth();
+
+  if (years >= 2) {
+    date = sd.getFullYear() + " - " + ed.getFullYear();
+  } else if (years > 1) {
+    console.log("not yet implemented");
+  } else if (years === 0) {
+    if (months === 0)
+      date = sd.toLocaleDateString("fr-FR", { month: "long", year: "numeric" });
+  }
+
   return (
     <article className="flex flex-col flex-wrap items-center gap-8 lg:flex-row lg:items-start lg:justify-center">
       <motion.div
@@ -12,7 +35,7 @@ const Experience = ({ year, name, position, summary, highlights }) => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-center text-neutral-400 lg:text-right">{year}</p>
+        <p className="text-center text-neutral-400 lg:text-right">{date}</p>
       </motion.div>
       <motion.div
         className="w-full max-w-xl lg:w-5/6"
@@ -33,9 +56,10 @@ const Experience = ({ year, name, position, summary, highlights }) => {
 };
 
 Experience.propTypes = {
-  year: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
   summary: PropTypes.any,
   highlights: PropTypes.array,
 };
