@@ -64,7 +64,7 @@ const ProjectCard = ({
             )}
           </div>
         </div>
-        <Summary className="text-neutral-400 " content={summary} />
+        <Summary className="text-foreground-color" content={summary} />
         <HighlightList items={highlights} />
       </motion.div>
     </article>

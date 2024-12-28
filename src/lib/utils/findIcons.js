@@ -84,7 +84,6 @@ const icons = {
   "react-router": {
     component: SiReactrouter,
     title: "react-router",
-    className: "text-neutral-400",
   },
   redux: {
     component: SiRedux,
@@ -107,7 +106,6 @@ const icons = {
   nextjs: {
     component: TbBrandNextjs,
     title: "Next.js",
-    className: "text-neutral-300",
   },
   html: { component: FaHtml5, title: "HTML", className: "text-red-400" },
   mongodb: {
@@ -129,7 +127,6 @@ const icons = {
   github: {
     component: FaGithub,
     title: "Github",
-    className: "text-neutral-100",
   },
   linkedin: {
     component: FaLinkedinIn,

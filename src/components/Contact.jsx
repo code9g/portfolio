@@ -11,10 +11,13 @@ const Contact = ({ type, url, label, className }) => {
       {icon && (
         <icon.component
           alt={icon.title}
-          className={clsx(icon.className, className)}
+          className={clsx(icon.className, "text-primary-color")}
         />
       )}
-      <Link className={clsx("hover:underline", className)} to={url}>
+      <Link
+        className={clsx("text-primary-color hover:underline", className)}
+        to={url}
+      >
         {label}
       </Link>
     </>

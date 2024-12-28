@@ -11,7 +11,7 @@ const EducationCard = ({ endDate, institution, area, summary }) => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-center text-neutral-400 lg:text-right">
+        <p className="text-center text-foreground-color lg:text-right">
           {new Date(endDate).getFullYear()}
         </p>
       </motion.div>
@@ -30,7 +30,7 @@ const EducationCard = ({ endDate, institution, area, summary }) => {
             </>
           )}
         </h3>
-        <Summary className="text-neutral-400" content={summary} />
+        <Summary className="text-foreground-color" content={summary} />
       </motion.div>
     </article>
   );

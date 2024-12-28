@@ -35,7 +35,9 @@ const WorkCard = ({
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-center text-neutral-400 lg:text-right">{date}</p>
+        <p className="text-center text-foreground-color lg:text-right">
+          {date}
+        </p>
       </motion.div>
       <motion.div
         className="w-full max-w-xl lg:w-5/6"
@@ -48,7 +50,7 @@ const WorkCard = ({
           <br />
           <span className="text-purple-100">{name}</span>
         </h3>
-        <Summary className="text-neutral-400 " content={summary} />
+        <Summary className="text-foreground-color" content={summary} />
         <HighlightList items={highlights} />
       </motion.div>
     </article>

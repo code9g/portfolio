@@ -15,7 +15,6 @@ const Footer = () => {
         <ul className="flex list-none flex-col items-start gap-1">
           <li className="flex items-center gap-3">
             <Contact
-              className="text-neutral-300"
               type="email"
               url={"mailto:" + resume.basics.email}
               label={resume.basics.email}
@@ -24,7 +23,6 @@ const Footer = () => {
           {resume.basics.profiles.map((profile, index) => (
             <li key={index} className="flex items-center gap-3">
               <Contact
-                className="text-neutral-300"
                 type={profile.network.toLowerCase()}
                 url={profile.url}
                 label={profile.url
