@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import resume from "../data/resume.json";
 
@@ -17,9 +18,9 @@ const Contact = ({ type, url, label }) => {
   return (
     <>
       {<icon.component alt={icon.title} />}
-      <a className="hover:underline" href={url}>
+      <Link className="hover:underline" to={url}>
         {label}
-      </a>
+      </Link>
     </>
   );
 };

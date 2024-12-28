@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import Description from "./Description";
 import Img from "./Img";
 import Tags from "./Tags";
@@ -34,9 +35,9 @@ const Project = ({ images, title, description, url = null, skills }) => {
       >
         <h3 className="mb-2 font-semibold">
           {url ? (
-            <a className="hover:underline" href={url} target="_blank">
+            <Link className="hover:underline" to={url} target="_blank">
               {title}
-            </a>
+            </Link>
           ) : (
             title
           )}

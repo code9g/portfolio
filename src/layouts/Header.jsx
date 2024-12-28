@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 
 const links = [
@@ -18,9 +19,9 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-10 h-16 bg-neutral-950/80">
       <Container className="flex h-full items-center justify-between py-0 text-xl">
-        <a className="pl-4 lg:pl-0" href="#hero">
+        <Link className="pl-4 lg:pl-0" to="/">
           &lt;code99&nbsp;/&gt;
-        </a>
+        </Link>
         <nav className="relative flex items-center justify-between">
           <button
             className="pr-4 lg:hidden lg:pr-0"
@@ -37,13 +38,13 @@ const Header = () => {
           >
             {links.map((link, index) => (
               <li key={index}>
-                <a
+                <Link
                   className="px-3 hover:underline"
-                  href={link.url}
+                  to={link.url}
                   onClick={() => setIsOpen(false)}
                 >
                   {link.title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
