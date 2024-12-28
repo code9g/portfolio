@@ -2,7 +2,7 @@ import clsx from "clsx";
 import PropTypes from "prop-types";
 import stringable from "../lib/utils/stringable";
 
-const Description = ({ content, className, ...props }) => {
+const Summary = ({ content, className, ...props }) => {
   if (stringable(content)) {
     content = [content];
   }
@@ -14,9 +14,9 @@ const Description = ({ content, className, ...props }) => {
   ));
 };
 
-Description.propTypes = {
+Summary.propTypes = {
   content: PropTypes.any,
   className: PropTypes.any,
 };
 
-export default Description;
+export default Summary;

@@ -1,24 +1,20 @@
 import Container from "../components/Container";
-import Project from "../components/Project";
+import ProjectList from "../components/ProjectList";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
 
-const Projects = () => {
+const ProjectsSection = () => {
   return (
     <Section id="projects">
       <Container>
         <TitleSection>Projets</TitleSection>
-        <div className="flex flex-col gap-8 px-4 lg:px-0">
-          {resume.projects.map((project, index) => (
-            <Project key={index} {...project} />
-          ))}
-        </div>
+        <ProjectList items={resume.projects} />
       </Container>
     </Section>
   );
 };
 
-Projects.propTypes = {};
+ProjectsSection.propTypes = {};
 
-export default Projects;
+export default ProjectsSection;

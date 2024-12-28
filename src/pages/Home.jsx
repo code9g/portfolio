@@ -1,8 +1,8 @@
 import AboutSection from "../sections/AboutSection";
 import EducationSection from "../sections/EducationSection";
 import HeroSection from "../sections/HeroSection";
-import Projects from "../sections/Projects";
-import Skills from "../sections/Skills";
+import ProjectsSection from "../sections/ProjectsSection";
+import SkillsSection from "../sections/SkillsSection";
 import WorkSection from "../sections/WorkSection";
 
 const Home = () => {
@@ -10,10 +10,10 @@ const Home = () => {
     <>
       <HeroSection />
       <AboutSection />
-      <Skills />
+      <SkillsSection />
       <EducationSection />
       <WorkSection />
-      <Projects />
+      <ProjectsSection />
     </>
   );
 };

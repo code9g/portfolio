@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import about from "../assets/about.jpg";
 import Container from "../components/Container";
-import Description from "../components/Description";
 import Img from "../components/Img";
 import Section from "../components/Section";
+import Summary from "../components/Summary";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
 
@@ -29,7 +29,7 @@ const AboutSection = () => {
             transition={{ duration: 1 }}
             className="flex size-full flex-col items-center justify-center p-4 lg:w-1/2"
           >
-            <Description content={resume.about} />
+            <Summary content={resume.about} />
           </motion.div>
         </div>
       </Container>

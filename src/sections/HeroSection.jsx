@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg";
 import Container from "../components/Container";
-import Description from "../components/Description";
 import Img from "../components/Img";
 import Section from "../components/Section";
+import Summary from "../components/Summary";
 import resume from "../data/resume.json";
 
 const HeroSection = () => {
@@ -22,7 +22,7 @@ const HeroSection = () => {
           <h3 className="mb-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent lg:mb-8">
             {resume.role}
           </h3>
-          <Description
+          <Summary
             className="font-light tracking-tighter"
             content={resume.hero}
           />

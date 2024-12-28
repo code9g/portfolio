@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import Description from "./Description";
+import HighlightList from "./HighlightList";
 import Img from "./Img";
-import Tags from "./Tags";
+import Summary from "./Summary";
 
-const Project = ({ images, title, description, url = null, skills }) => {
+const ProjectCard = ({ images, title, description, url = null, skills }) => {
   const firstPicture =
     images instanceof Array && images.length > 0 ? images[0] : null;
 
@@ -42,14 +42,14 @@ const Project = ({ images, title, description, url = null, skills }) => {
             title
           )}
         </h3>
-        <Description className="text-neutral-400 " content={description} />
-        <Tags items={skills} />
+        <Summary className="text-neutral-400 " content={description} />
+        <HighlightList items={skills} />
       </motion.div>
     </article>
   );
 };
 
-Project.propTypes = {
+ProjectCard.propTypes = {
   images: PropTypes.array,
   title: PropTypes.string.isRequired,
   description: PropTypes.any,
@@ -57,4 +57,4 @@ Project.propTypes = {
   url: PropTypes.string,
 };
 
-export default Project;
+export default ProjectCard;

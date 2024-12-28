@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import Description from "./Description";
-import Tags from "./Tags";
+import HighlightList from "./HighlightList";
+import Summary from "./Summary";
 
 const WorkCard = ({
   startDate,
@@ -48,8 +48,8 @@ const WorkCard = ({
           <br />
           <span className="text-purple-100">{name}</span>
         </h3>
-        <Description className="text-neutral-400 " content={summary} />
-        <Tags items={highlights} />
+        <Summary className="text-neutral-400 " content={summary} />
+        <HighlightList items={highlights} />
       </motion.div>
     </article>
   );

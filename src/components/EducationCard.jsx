@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import Description from "./Description";
+import Summary from "./Summary";
 
 const EducationCard = ({ endDate, institution, area, summary }) => {
   return (
@@ -30,7 +30,7 @@ const EducationCard = ({ endDate, institution, area, summary }) => {
             </>
           )}
         </h3>
-        <Description className="text-neutral-400" content={summary} />
+        <Summary className="text-neutral-400" content={summary} />
       </motion.div>
     </article>
   );
