@@ -1,8 +1,5 @@
 {
   "fullName": "Pierre Henry",
-  "firstName": "Pierre",
-  "lastName": "Henry",
-  "birthday": "1975-11-08",
   "role": "Développeur Full Stack",
   "contacts": [
     {
@@ -48,17 +45,20 @@
     "mysql",
     "php"
   ],
-  "experiences": [
+  "work": [
     {
+      "name": "Association Echecs et Mat",
+      "position": "Développeur Full Stack (Stagiaire)",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-31",
       "year": "Janvier/Février 2023",
-      "role": "Développeur Full Stack (Stagiaire)",
-      "company": "Association Echecs et Mat",
-      "description": [
+      "location": "Forbach, Moselle, France",
+      "summary": [
         "Refonte du site de l'association afin de le rendre moderne, dynamique et responsive.",
         "Analyse des besoins du client, création du cahier des charges, mise en place de la structure de la base de donnée, utlisation d'API et de mise en cache des données, intégration avec DataTable (jquery)."
       ],
       "url": "https://echecsforbach.com",
-      "skills": [
+      "highlights": [
         "html",
         "css",
         "javascript",
@@ -69,31 +69,38 @@
       ]
     },
     {
-      "year": "2004 - 2005",
-      "role": "Développeur d'application",
-      "company": "Mathéo-Software",
-      "description": [
+      "year": "2004 - 2008",
+      "name": "Mathéo-Software",
+      "position": "Développeur d'application (Delphi)",
+      "startDate": "2004-03-31",
+      "endDate": "2008-01-31",
+      "location": "Marseille, Provence-Alpes-Côte d’Azur, France",
+      "summary": [
         "Création de la société en tant que co-actionnaire.",
         "Développement d'application dédiées à la veille technologie et d'analyse de donnée bibliométrique (datamining) en Delphi et Assembleur.",
         "Mise en place d'algorithme spécifique aux applications et optimisation, réalisé en Assembleur.",
         "En télétravail."
       ],
       "url": "https://www.matheo-software.com/fr/",
-      "skills": [
+      "highlights": [
         "delphi",
+        "interbase",
         "asm"
       ]
     },
     {
       "year": "1998 - 2004",
-      "role": "Responsable Informatique et Développement",
-      "company": "Société E.T.A.",
-      "description": [
+      "startDate": "1998-09-30",
+      "endDate": "2004-03-31",
+      "position": "Responsable Informatique et Développement",
+      "name": "Société E.T.A.",
+      "location": "Créhange, Moselle, France",
+      "summary": [
         "Développement et maintenance d'application dédié aux besoins de l'entreprise, notament un logiciel de chiffrage couplé avec un logiciel de gestion de stock en temps réel, réalisé en Delphi 4 C/S et Interbase.",
         "Dimensionnement et mise en service du serveur de l'entreprise monté en rack dans une armoire dédié, configuration de Windows NT et administration du réseau.",
         "Formation du personnel sur l'utilisation des applications propres à l'entreprise et de la suite Microsoft Office."
       ],
-      "skills": [
+      "highlights": [
         "delphi",
         "interbase",
         "server",

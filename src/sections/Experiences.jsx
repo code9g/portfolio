@@ -10,7 +10,7 @@ const Experiences = () => {
       <Container>
         <TitleSection>Experiences</TitleSection>
         <div className="flex flex-col gap-8">
-          {resume.experiences.map((item, index) => (
+          {resume.work.map((item, index) => (
             <Experience key={index} {...item} />
           ))}
         </div>
