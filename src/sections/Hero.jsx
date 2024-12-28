@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <Section id="hero" className="flex flex-wrap">
       <motion.div
-        className="flex w-full flex-col items-center lg:w-1/2 lg:items-start"
+        className="flex w-full flex-col items-center justify-center lg:w-1/2 lg:items-start"
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
@@ -24,12 +24,16 @@ const Hero = () => {
         </p>
       </motion.div>
       <motion.div
-        className="flex w-full justify-center lg:w-1/2 lg:p-8"
+        className="flex w-full items-center justify-center lg:w-1/2 lg:p-8"
         initial={{ x: +100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Img src={"." + profile} alt={resume.fullName} />
+        <Img
+          src={profile}
+          alt={resume.fullName}
+          className="h-min w-full rounded-xl object-contain"
+        />
       </motion.div>
     </Section>
   );
