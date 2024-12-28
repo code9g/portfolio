@@ -7,7 +7,7 @@ import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
 
-const About = () => {
+const AboutSection = () => {
   return (
     <Section id="about">
       <Container>
@@ -37,6 +37,6 @@ const About = () => {
   );
 };
 
-About.propTypes = {};
+AboutSection.propTypes = {};
 
-export default About;
+export default AboutSection;

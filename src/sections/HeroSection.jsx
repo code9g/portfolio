@@ -6,7 +6,7 @@ import Img from "../components/Img";
 import Section from "../components/Section";
 import resume from "../data/resume.json";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <Section id="hero" className="">
       <Container className="flex flex-wrap">
@@ -44,6 +44,6 @@ const Hero = () => {
   );
 };
 
-Hero.propTypes = {};
+HeroSection.propTypes = {};
 
-export default Hero;
+export default HeroSection;

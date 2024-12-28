@@ -1,18 +1,18 @@
-import About from "../sections/About";
+import AboutSection from "../sections/AboutSection";
 import EducationSection from "../sections/EducationSection";
-import Experiences from "../sections/Experiences";
-import Hero from "../sections/Hero";
+import HeroSection from "../sections/HeroSection";
 import Projects from "../sections/Projects";
 import Skills from "../sections/Skills";
+import WorkSection from "../sections/WorkSection";
 
 const Home = () => {
   return (
     <>
-      <Hero />
-      <About />
+      <HeroSection />
+      <AboutSection />
       <Skills />
       <EducationSection />
-      <Experiences />
+      <WorkSection />
       <Projects />
     </>
   );

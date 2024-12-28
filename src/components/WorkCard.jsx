@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Description from "./Description";
 import Tags from "./Tags";
 
-const Experience = ({
+const WorkCard = ({
   startDate,
   endDate,
   name,
@@ -55,7 +55,7 @@ const Experience = ({
   );
 };
 
-Experience.propTypes = {
+WorkCard.propTypes = {
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
   startDate: PropTypes.string,
@@ -64,4 +64,4 @@ Experience.propTypes = {
   highlights: PropTypes.array,
 };
 
-export default Experience;
+export default WorkCard;
