@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import findTechnology from "../lib/utils/findTechnology";
+import findIcons from "../lib/utils/findIcons";
 
 const Tags = ({ items }) => {
   return (
@@ -9,7 +9,7 @@ const Tags = ({ items }) => {
           key={index}
           className="mr-2 text-nowrap rounded bg-neutral-300 px-3 py-1.5 text-sm font-medium text-neutral-950"
         >
-          {findTechnology(item)?.title ?? item}
+          {findIcons(item)?.title ?? item}
         </span>
       ))}
     </div>

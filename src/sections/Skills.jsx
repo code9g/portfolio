@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
-import findTechnology from "../lib/utils/findTechnology";
+import findIcons from "../lib/utils/findIcons";
 
 const Skill = ({ name }) => {
-  const icon = findTechnology(name);
+  const icon = findIcons(name);
   const content = icon ? (
     <icon.component
       className={clsx("size-full", icon.className)}

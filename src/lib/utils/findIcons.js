@@ -5,14 +5,18 @@ import {
   FaBootstrap,
   FaCss3Alt,
   FaFigma,
+  FaGithub,
   FaHtml5,
+  FaLinkedinIn,
   FaNodeJs,
+  FaPhone,
   FaPhp,
   FaPython,
   FaSass,
   FaVuejs,
 } from "react-icons/fa";
 import { GoRuby } from "react-icons/go";
+import { MdOutlineEmail } from "react-icons/md";
 import {
   RiFirebaseFill,
   RiJavascriptFill,
@@ -24,7 +28,6 @@ import {
   SiBabel,
   SiDelphi,
   SiExpress,
-  SiGithub,
   SiJest,
   SiMongodb,
   SiReactrouter,
@@ -36,7 +39,7 @@ import {
 } from "react-icons/si";
 import { TbBrandMysql, TbBrandNextjs, TbBrandThreejs } from "react-icons/tb";
 
-const technologies = {
+const icons = {
   algorithm: { component: SiThealgorithms, title: "Algorithm", className: "" },
   figma: { component: FaFigma, title: "Figma", className: "" },
   tailwind: {
@@ -124,10 +127,17 @@ const technologies = {
     className: "text-sky-700",
   },
   github: {
-    component: SiGithub,
+    component: FaGithub,
     title: "Github",
     className: "text-neutral-100",
   },
+  linkedin: {
+    component: FaLinkedinIn,
+    title: "LinkedIn",
+    className: "text-blue-500",
+  },
+  email: { component: MdOutlineEmail, title: "email", className: "" },
+  phone: { component: FaPhone, title: "phone", className: "" },
   babel: {
     component: SiBabel,
     title: "Babel",
@@ -148,6 +158,6 @@ const technologies = {
   },
 };
 
-const findTechnology = (name) => technologies[name] ?? null;
+const findIcons = (name) => icons[name] ?? null;
 
-export default findTechnology;
+export default findIcons;
