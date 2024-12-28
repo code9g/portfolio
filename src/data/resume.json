@@ -1,82 +1,10 @@
 {
-  "hero": [
-    "Je suis un développeur Full Stack passionné et doué pour créer des applications Web robustes et évolutives.",
-    "Avec pas mal d’année d'expérience dans le développement, j'ai perfectionné mes compétences dans les technologies front-end comme React, ainsi que dans les technologies back-end comme PHP, MySQL, Node.js, Express et MongoDB.",
-    "Mon objectif est de mettre à profit mon expertise pour créer des solutions innovantes qui stimulent la croissance de l'entreprise et offrent des expériences utilisateur exceptionnelles."
-  ],
   "about": [
     "Je suis un développeur Full Stack dévoué et polyvalent, passionné par la création d'applications Web efficaces et conviviales.",
     "Avec pas mal d’année d'expérience professionnelle, j'ai travaillé avec diverses technologies, notamment React, Node.js, MySQL, MongoDB, Delphi et Python.",
     "Mon parcours dans le développement Web a commencé avec une profonde curiosité pour le fonctionnement des choses, et il a évolué vers une carrière où je m'efforce continuellement d'apprendre et de m'adapter aux nouveaux défis.",
     "Je m'épanouis dans des environnements collaboratifs et j'aime résoudre des problèmes complexes pour proposer des solutions de haute qualité.",
     "En dehors du codage, j'aime rester actif, explorer de nouvelles technologies."
-  ],
-  "skills": [
-    {
-      "name": "html",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "css",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "javascript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "react",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "vitejs",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "react-router",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "redux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "mongodb",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "express",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "delphi",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "python",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "mysql",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "php",
-      "level": "",
-      "keywords": []
-    }
   ],
   "basics": {
     "name": "Pierre-André HENRY",
@@ -85,7 +13,11 @@
     "email": "pierre.henry@code99.fr",
     "phone": "",
     "url": "",
-    "summary": "Fort d’une expérience de plus de huit ans dans le développement d’application (création de devis, gestion de stock ou veille technologie),  m’ont permis d’acquérir des compétences assez variées , comme la gestion de projet ou l’analyse des besoins des clients, atouts nécessaire dans des développements plus conséquents ou complexe !\nToutefois, ma curiosité et ma passion de l’informatique, m’ont permis d’apprendre en autodidacte, et de renforcer mes compétences !",
+    "summary": [
+      "Je suis un développeur Full Stack passionné et doué pour créer des applications Web robustes et évolutives.",
+      "Avec pas mal d’année d'expérience dans le développement, j'ai perfectionné mes compétences dans les technologies front-end comme React, ainsi que dans les technologies back-end comme PHP, MySQL, Node.js, Express et MongoDB.",
+      "Mon objectif est de mettre à profit mon expertise pour créer des solutions innovantes qui stimulent la croissance de l'entreprise et offrent des expériences utilisateur exceptionnelles."
+    ],
     "location": {
       "countryCode": "FR",
       "address": "France"
@@ -466,6 +398,73 @@
         "html",
         "css"
       ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "html",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "css",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "javascript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "react",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "vitejs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "react-router",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "redux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mongodb",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "express",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "delphi",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "mysql",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "php",
+      "level": "",
+      "keywords": []
     }
   ]
 }

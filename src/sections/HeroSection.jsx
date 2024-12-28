@@ -24,7 +24,7 @@ const HeroSection = () => {
           </h3>
           <Summary
             className="font-light tracking-tighter"
-            content={resume.hero}
+            content={resume.basics.summary}
           />
         </motion.div>
         <motion.div
