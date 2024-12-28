@@ -35,7 +35,7 @@ const HeroSection = () => {
         >
           <Img
             src={profile}
-            alt={resume.basics.name}
+            alt="hero"
             className="h-min w-full rounded-xl object-contain"
           />
         </motion.div>
