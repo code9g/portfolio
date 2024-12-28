@@ -28,7 +28,7 @@ const Education = ({ year, company = null, role, description }) => {
             </>
           )}
         </h3>
-        <Description content={description} />
+        <Description className="text-neutral-400" content={description} />
       </motion.div>
     </article>
   );

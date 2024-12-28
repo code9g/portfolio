@@ -8,11 +8,7 @@ const Description = ({ content, className, ...props }) => {
   }
 
   return content.map((text, index) => (
-    <p
-      key={index}
-      className={clsx("mb-4 text-justify text-neutral-400", className)}
-      {...props}
-    >
+    <p key={index} className={clsx("mb-4 text-justify", className)} {...props}>
       {text}
     </p>
   ));

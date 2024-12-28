@@ -25,7 +25,7 @@ const Experience = ({ year, company, role, description, skills }) => {
           <br />
           <span className="text-purple-100">{company}</span>
         </h3>
-        <Description content={description} />
+        <Description className="text-neutral-400 " content={description} />
         <Tags items={skills} />
       </motion.div>
     </article>

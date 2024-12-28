@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import about from "../assets/about.jpg";
 import Container from "../components/Container";
+import Description from "../components/Description";
 import Img from "../components/Img";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
@@ -26,9 +27,9 @@ const About = () => {
             initial={{ x: +100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="flex size-full items-center justify-center lg:w-1/2"
+            className="flex size-full flex-col items-center justify-center p-4 lg:w-1/2"
           >
-            <p className="my-2 max-w-xl py-6 text-justify">{resume.about}</p>
+            <Description content={resume.about} />
           </motion.div>
         </div>
       </Container>
