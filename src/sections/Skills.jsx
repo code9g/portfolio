@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import PropTypes from "prop-types";
+import Container from "../components/Container";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
@@ -32,13 +33,15 @@ Skill.propTypes = {
 
 const Skills = () => {
   return (
-    <Section id="skills" className="flex flex-col items-center">
-      <TitleSection>Compétences</TitleSection>
-      <div className="flex flex-wrap items-center justify-center gap-10 lg:max-w-[50vw]">
-        {resume.skills.map((item) => {
-          return <Skill key={item} name={item} />;
-        })}
-      </div>
+    <Section id="skills">
+      <Container className="flex flex-col items-center">
+        <TitleSection>Compétences</TitleSection>
+        <div className="flex flex-wrap items-center justify-center gap-10 lg:max-w-[50vw]">
+          {resume.skills.map((item) => {
+            return <Skill key={item} name={item} />;
+          })}
+        </div>
+      </Container>
     </Section>
   );
 };
