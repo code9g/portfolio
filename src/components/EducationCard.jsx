@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import Description from "./Description";
 
-const Education = ({ endDate, institution, area, summary }) => {
+const EducationCard = ({ endDate, institution, area, summary }) => {
   return (
     <article className="flex flex-wrap gap-8 lg:justify-center">
       <motion.div
@@ -36,7 +36,7 @@ const Education = ({ endDate, institution, area, summary }) => {
   );
 };
 
-Education.propTypes = {
+EducationCard.propTypes = {
   startDate: PropTypes.string,
   endDate: PropTypes.string,
   institution: PropTypes.string,
@@ -46,4 +46,4 @@ Education.propTypes = {
   summary: PropTypes.any,
 };
 
-export default Education;
+export default EducationCard;

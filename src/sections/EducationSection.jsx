@@ -1,24 +1,20 @@
 import Container from "../components/Container";
-import Education from "../components/Education";
+import EducationList from "../components/EducationList";
 import Section from "../components/Section";
 import TitleSection from "../components/TitleSection";
 import resume from "../data/resume.json";
 
-const Educations = () => {
+const EducationSection = () => {
   return (
     <Section id="education">
       <Container>
         <TitleSection>Formations</TitleSection>
-        <div className="flex flex-col gap-8 px-4 lg:px-0">
-          {resume.education?.map((item, index) => (
-            <Education key={index} {...item} />
-          ))}
-        </div>
+        <EducationList items={resume.education} />
       </Container>
     </Section>
   );
 };
 
-Educations.propTypes = {};
+EducationSection.propTypes = {};
 
-export default Educations;
+export default EducationSection;

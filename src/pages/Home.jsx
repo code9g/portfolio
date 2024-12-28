@@ -1,5 +1,5 @@
 import About from "../sections/About";
-import Educations from "../sections/Educations";
+import EducationSection from "../sections/EducationSection";
 import Experiences from "../sections/Experiences";
 import Hero from "../sections/Hero";
 import Projects from "../sections/Projects";
@@ -11,7 +11,7 @@ const Home = () => {
       <Hero />
       <About />
       <Skills />
-      <Educations />
+      <EducationSection />
       <Experiences />
       <Projects />
     </>
