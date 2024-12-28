@@ -15,7 +15,7 @@ const Footer = () => {
         <ul className="flex list-none flex-col items-start gap-1">
           {resume.contacts.map((item, index) => (
             <li key={index} className="flex items-center gap-3">
-              <Contact key={index} {...item} />
+              <Contact key={index} {...item} className="text-neutral-300" />
             </li>
           ))}
         </ul>
