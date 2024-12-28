@@ -13,9 +13,24 @@ const Footer = () => {
           </p>
         </div>
         <ul className="flex list-none flex-col items-start gap-1">
-          {resume.contacts.map((item, index) => (
+          <li className="flex items-center gap-3">
+            <Contact
+              className="text-neutral-300"
+              type="email"
+              url={"mailto:" + resume.basics.email}
+              label={resume.basics.email}
+            />
+          </li>
+          {resume.basics.profiles.map((profile, index) => (
             <li key={index} className="flex items-center gap-3">
-              <Contact key={index} {...item} className="text-neutral-300" />
+              <Contact
+                className="text-neutral-300"
+                type={profile.network.toLowerCase()}
+                url={profile.url}
+                label={profile.url
+                  .replace(/^https?:\/\/(w{3}\.)?/, "")
+                  .replace(/\/$/, "")}
+              />
             </li>
           ))}
         </ul>
