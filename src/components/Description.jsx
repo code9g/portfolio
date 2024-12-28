@@ -6,6 +6,7 @@ const Description = ({ content, className, ...props }) => {
   if (stringable(content)) {
     content = [content];
   }
+
   return content.map((text, index) => (
     <p
       key={index}
