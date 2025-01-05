@@ -35,6 +35,7 @@ import {
   SiRubocop,
   SiSqlite,
   SiThealgorithms,
+  SiTypescript,
   SiVite,
 } from "react-icons/si";
 import { TbBrandMysql, TbBrandNextjs, TbBrandThreejs } from "react-icons/tb";
@@ -84,6 +85,11 @@ const icons = {
   "react-router": {
     component: SiReactrouter,
     title: "react-router",
+  },
+  typescript: {
+    component: SiTypescript,
+    title: "TypeScript",
+    className: "text-blue-600",
   },
   redux: {
     component: SiRedux,
