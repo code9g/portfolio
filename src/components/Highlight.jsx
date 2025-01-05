@@ -3,7 +3,7 @@ import findIcons from "../lib/utils/findIcons";
 
 const Highlight = ({ name }) => {
   return (
-    <span className="mr-2 text-nowrap rounded bg-primary-color px-3 py-1.5 text-sm font-medium text-secondary-color">
+    <span className="mr-2 select-none text-nowrap rounded bg-primary-color px-3 py-1.5 text-sm font-medium text-secondary-color">
       {findIcons(name)?.title ?? name}
     </span>
   );
