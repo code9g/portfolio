@@ -157,6 +157,27 @@
       ]
     },
     {
+      "name": "Mon portfolio",
+      "images": [
+        "portfolio.png"
+      ],
+      "summary": [
+        "Mon portfolio mettant en avant mes compétences ainsi que les différents projets auxquels j'ai participé."
+      ],
+      "url": "https://www.code99.fr/",
+      "repository": {
+        "type": "github",
+        "url": "https://github.com/code9g/portfolio"
+      },
+      "highlights": [
+        "html",
+        "css",
+        "javascript",
+        "tailwind",
+        "framer-motion"
+      ]
+    },
+    {
       "name": "HRNet",
       "images": [
         "hrnet.png"

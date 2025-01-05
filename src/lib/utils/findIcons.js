@@ -84,7 +84,7 @@ const icons = {
   vue: { component: FaVuejs, title: "Vue.js", className: "" },
   "react-router": {
     component: SiReactrouter,
-    title: "react-router",
+    title: "React-Router",
   },
   typescript: {
     component: SiTypescript,
